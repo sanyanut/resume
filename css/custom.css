@@ -1,0 +1,9 @@
+.skills-stars {
+   margin-bottom: 0;
+}
+
+.two-column-skills {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
