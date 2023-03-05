@@ -7,3 +7,14 @@
    flex-direction: row;
    justify-content: space-between;
 }
+
+
+
+@media print {
+   .details > input:after {
+      rotate: 90deg;
+   }
+   .details > div {
+      display: block;
+   }
+}
